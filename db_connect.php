@@ -21,7 +21,6 @@ define('DATABASE_CONNECTION_MESSAGE','Unable to connect database');
  */
 function db_connect($isPDO=false) 
 {
-$password = ''
     // Production DB Connection
 	$environment = "";
 	if(isset($_SERVER["RunningServer"])):
